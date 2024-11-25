@@ -68,15 +68,4 @@ Enter a letter:
 
     A debugging feature is included to display the word being guessed (print(word_to_guess, "(debugging)")). Comment or remove this line when deploying the final version.
 
-##Screenshots
-Winning Screen
 
-
-Losing Screen
-
-Contributions
-
-Contributions, bug reports, and suggestions are welcome! Feel free to open an issue or submit a pull request.
-License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
