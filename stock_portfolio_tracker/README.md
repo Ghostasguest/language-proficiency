@@ -43,3 +43,39 @@ This Stock Dashboard App is a Streamlit-based application that allows users to:
    git clone https://github.com/your-repository-url.git
    cd stock-dashboard
 
+## Install the required dependencies:
+
+pip install -r requirements.txt
+
+## Download the dataset for stock tickers and place it in the datasets folder:
+
+    File: datasets/stock_info.csv
+    Column: Ticker (List of valid stock tickers)
+
+## Run the app:
+
+    streamlit run app.py
+
+## Usage
+
+    Open the app in your browser using the local Streamlit server link provided in the terminal.
+    Use the sidebar to:
+        Select a stock ticker.
+        Set a date range for stock pricing data.
+    Navigate through the tabs for:
+        Viewing pricing data and returns.
+        Managing your stock portfolio.
+        Reading the latest stock news.
+
+## Folder Structure
+
+.
+├── app.py               # Main application script
+├── datasets/
+│   └── stock_info.csv   # List of stock tickers
+├── requirements.txt     # Python dependencies
+└── README.md            # Documentation
+
+## Dependencies
+
+See requirements.txt.
