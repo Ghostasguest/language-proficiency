@@ -38,7 +38,7 @@ Before running the application, ensure you have the following:
    git clone <repository-url>
    cd milestone-monitor
 
-##Run the application:
+## Run the application:
 
     python milestone_monitor.py
 
@@ -48,12 +48,12 @@ Before running the application, ensure you have the following:
 
     The application's state is saved in a file named Milestone_data.txt.
 
-##File Details
+## File Details
 
     milestone_monitor.py: Main application file.
     Milestone_data.txt: Automatically created file to store button states.
 
-##Project Layout
+## Project Layout
 
 milestone-monitor/
 │
@@ -61,7 +61,7 @@ milestone-monitor/
 ├── Milestone_data.txt     # File to save milestone states (auto-generated)
 └── README.md              # Project documentation
 
-##Future Enhancements
+## Future Enhancements
 
     Add a calendar view for more detailed milestone tracking.
     Allow users to customize the color palette through the interface.
